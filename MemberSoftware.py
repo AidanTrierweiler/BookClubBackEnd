@@ -1,7 +1,11 @@
 
+        '''
+        Class outline: Kaiden
+        Class Implementation:
+        '''
 
-class MemberSoftware():
 
+class MemberSoftware:
 
     # initilizing the user in the class so the methods can be called on a specific user
     def __init__(self):
