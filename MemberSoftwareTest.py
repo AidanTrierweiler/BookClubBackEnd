@@ -1,6 +1,6 @@
 
 '''
-Class outline: Kaiden
+File outline: Kaiden
 Class Implementation:
 '''
 
