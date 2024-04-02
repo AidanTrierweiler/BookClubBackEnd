@@ -4,10 +4,6 @@ File outline: Kaiden
 Class Implementation:
 '''
 
-import pytest
-from MemberSoftware import MemberSoftware
-
-
 '''
 Integration Test
 

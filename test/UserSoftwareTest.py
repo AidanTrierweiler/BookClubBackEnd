@@ -3,9 +3,6 @@ File outline: Aidan
 Class Implementation:
 """
 
-import pytest
-from UserSoftware import UserSoftware
-
 '''
 Integration Test
 
