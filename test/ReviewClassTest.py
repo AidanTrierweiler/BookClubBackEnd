@@ -2,11 +2,6 @@
     Class outline: Matt
 '''
 
-
-import pytest
-import ReviewClass
-
-
 '''Returns the ID of the review'''
 def getIDTest():
     pass

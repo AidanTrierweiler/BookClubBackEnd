@@ -2,10 +2,6 @@
     Class Outline: Matt
 '''
 
-import pytest
-import BookClass
-
-
 '''Get Book ID'''
 def getIDTest():
     pass
