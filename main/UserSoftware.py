@@ -4,8 +4,23 @@
     Class implementation
     '''
 
+from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base
+from typing import List
+# from book import Book
+# from club import Club
+# from review import Review
 
-class UserSoftware:
+Base = declarative_base()
+
+class User(Base):
+    __tablename__ = 'users'
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String)
+    password = Column(String)
+    isMonthlyHost = Column(Boolean)
 
     def __init__(self):
         pass
