@@ -5,6 +5,7 @@
     '''
 
 from sqlalchemy import Column, Integer, String, Boolean
+from database import Base
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 from typing import List
@@ -14,6 +15,7 @@ from typing import List
 
 Base = declarative_base()
 
+
 class User(Base):
     __tablename__ = 'users'
 
@@ -22,8 +24,10 @@ class User(Base):
     password = Column(String)
     isMonthlyHost = Column(Boolean)
 
-    def __init__(self):
-        pass
+    def __init__(self, name: str, password : str):
+        self.name = name
+        self.password = password
+        self.isMonthlyHost = False
 
     def __repr__(self):
         pass
