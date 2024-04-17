@@ -96,12 +96,6 @@ class Club:
         pass
 
     '''
-    :return: a list of all past meeting location for the club
-    '''
-    def getLocations(self):
-        pass
-
-    '''
     :param address: a string that is the address for the club meeting location
     :return:
     '''
