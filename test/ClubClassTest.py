@@ -66,7 +66,7 @@ def setDirectorTest():
 Assures that when the monthly host is asked for the correct user object is returned
 '''
 def getMonthlyHostTest():
-    result = testClub0.getMonthlyHost().getName()
+    result = testClub0.get_monthly_host().getName()
 
     expectedName = "Bruce Wayne"
     assert result == expectedName
@@ -75,15 +75,15 @@ def getMonthlyHostTest():
 Assures that the monthly host attribute is updated correctly
 '''
 def setMonthlyHostTest():
-    testClub0.setMonthlyHost("Willy Wonka")
+    testClub0.set_monthly_host("Willy Wonka")
 
-    assert testClub0.getMonthlyHost.getName() == "Willy Wonka"
+    assert testClub0.get_monthly_host.getName() == "Willy Wonka"
 
 '''
 Assures that the correct list of users is returned
 '''
 def getMembersTest():
-    members = testClub0.getMembers()
+    members = testClub0.get_members()
 
     '''Maybe change this to check IDs so that everything is unique, I just don't know what the ids will be yet'''
     expectedNames = "Member One, Member Two, Member Three"
@@ -101,7 +101,7 @@ Assures that the correct user object is returned when asking for a specific memb
 '''
 def getMemberTest():
     ''' maybe change to use id as well'''
-    result = testClub0.getMember("Member One")
+    result = testClub0.get_member("Member One")
 
     assert result.getName() == "Member One"
 
@@ -112,7 +112,7 @@ def addMemberTest():
     '''create member here'''
     testClub0.addMember('''created member goes here''')
 
-    assert '''created member''' in testClub0.getMembers()
+    assert '''created member''' in testClub0.get_members()
 
 '''
 Assures that the correct list of books is returned
