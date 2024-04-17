@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from UserSoftware import Base as UserBase
 
 
-SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:DougProject3!@localhost:3306/bookclubdb"
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:DougProject3!@localhost:3306/bookclubdb"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 

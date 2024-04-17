@@ -4,12 +4,20 @@ from typing import Annotated
 from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 from UserSoftware import User
+import models
 
 
 app = FastAPI()
+models.Base.metadata.create_all(bind=engine)
 
 
-# Dependency to get the database session
+class UserBase(BaseModel):
+    id: int
+    name: str
+    password: str
+    isMonthlyHost: bool
+
+
 def get_db():
     db = SessionLocal()
     try:
@@ -18,11 +26,10 @@ def get_db():
         db.close()
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+db_dependency = Annotated[Session, Depends(get_db)]
 
-
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+@app.post("/users/", status_code=status.HTTP_201_CREATED)
+async def create_user(user: UserBase, db: db_dependency):
+    db_user = models.User(**user.dict())
+    db.add(db_user)
+    db.commit()
