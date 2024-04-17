@@ -1,8 +1,8 @@
 
-    '''
-    Class outline: Aidan
-    Class implementation
-    '''
+'''
+Class outline: Aidan
+Class implementation
+'''
 
 from sqlalchemy import Column, Integer, String, Boolean
 from database import Base
