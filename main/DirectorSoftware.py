@@ -5,9 +5,9 @@
     '''
 
 
-class DirectorSoftware(MemberSoftware):
+    class DirectorSoftware(MemberSoftware):
 
-    # needs to have the club the director is trying to work one and a list of all users from that club from the DB
+        # needs to have the club the director is trying to work one and a list of all users from that club from the DB
     def __init__(self):
         pass
 
@@ -21,7 +21,7 @@ class DirectorSoftware(MemberSoftware):
     :param name: name of theuser to be sat as the monthly host
     :return: None
     '''
-    def setMonthlyHost(self, director, club, name):
+    def set_monthly_host(self, director, club, name):
         pass
 
     '''
@@ -30,7 +30,7 @@ class DirectorSoftware(MemberSoftware):
         :param club: The club that is being affected by the user 
         :return: User
         '''
-    def getMonthlyHost(self, director, club):
+    def get_monthly_host(self, director, club):
         pass
 
         '''
@@ -39,7 +39,7 @@ class DirectorSoftware(MemberSoftware):
         :param club: The club that is being affected by the user 
         :return: List<User>
         '''
-    def getMembers(self, director, club):
+    def get_members(self, director, club):
         pass
 
         '''
@@ -49,7 +49,7 @@ class DirectorSoftware(MemberSoftware):
         :param name: The name of the user trying to be returned 
         :return: User
         '''
-    def getMember(self, director, club, name):
+    def get_member(self, director, club, name):
         pass
 
         '''
@@ -59,7 +59,7 @@ class DirectorSoftware(MemberSoftware):
         :param title: name of the book that is being added
         :return: Void
         '''
-    def addBookToClub(self, director, club, title):
+    def add_book_to_club(self, director, club, title):
         pass
 
         '''
@@ -69,7 +69,7 @@ class DirectorSoftware(MemberSoftware):
         :param title: The title of the book that is to be added
         :return: Void
         '''
-    def removeBookFromClub(self, director, club, title):
+    def remove_book_from_club(self, director, club, title):
         pass
 
         '''
@@ -79,7 +79,7 @@ class DirectorSoftware(MemberSoftware):
         :param club: The club that is being affected by the user 
         :return: List<Book>
         '''
-    def getAllClubBooks(self, director, club):
+    def get_all_club_books(self, director, club):
         pass
 
         '''
@@ -90,7 +90,7 @@ class DirectorSoftware(MemberSoftware):
         :param title: Title of the book being requested
         :return: Book
         '''
-    def getClubBook(self, director, club, title):
+    def get_club_book(self, director, club, title):
         pass
 
         '''
@@ -100,7 +100,7 @@ class DirectorSoftware(MemberSoftware):
         :param name: name of the user allowed into the club
         :return: Void
         '''
-    def acceptMember(self, director, club, name):
+    def accept_member(self, director, club, name):
         pass
 
 
