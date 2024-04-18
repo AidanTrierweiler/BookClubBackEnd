@@ -7,6 +7,7 @@ Class Implementation:
 import ClubClass
 import User
 import DirectorSoftware
+import BookClass
 
 test_club_1 = ClubClass()
 '''set all attributes of testClub1'''
@@ -73,7 +74,14 @@ def get_member_test():
     creates director, club, and book to see if the director can add a book to the club list
     '''
 def add_book_to_club_test():
-    pass
+    assert len(test_club_1.get_books()) == 0
+
+    test_book_0 = BookClass()
+    ''' Once a book object can be created fill in a real title in the call below '''
+    DirectorSoftware.add_book_to_club(test_director_user_0, test_club_1, "Enter Title Here")
+
+    assert len(test_club_1.get_books()) == 1
+    assert test_club_1.get_book("Enter Title Here") == test_book_0
 
     '''
     Integration Test
@@ -81,7 +89,10 @@ def add_book_to_club_test():
     creates director, club, and books to see if the director can remove a book from the club list
     '''
 def remove_book_from_club_test():
-    pass
+    ''' change title to the real title like the test method above '''
+    DirectorSoftware.remove_book_from_club(test_director_user_0, test_club_1, " Enter Title Here")
+
+    assert len(test_club_1.get_books()) == 0
 
     '''
     Integration Test

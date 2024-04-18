@@ -3,45 +3,45 @@
 '''
 
 '''Returns the ID of the review'''
-def getIDTest():
+def get_id_test():
     pass
 
 '''Returns the user who wrote the review'''
-def getUserTest():
+def get_user_test():
     pass
 
 '''Sets the user for a new review'''
-def setUserTest():
+def set_user_test():
     pass
 
 '''Returns the book that the review is about'''
-def getBookTest():
+def get_book_test():
     pass
 
 '''Ties the review to a book'''
-def setBookTest():
+def set_book_test():
     pass
 
 '''Returns the date the review was written'''
-def getDateTest():
+def get_date_test():
     pass
 
 '''Sets the date for a new review'''
-def setDateTest():
+def set_date_test():
     pass
 
 '''Gets the rating from a review'''
-def getRateTest():
+def get_rate_test():
     pass
 
 '''Allows teh user to rate a book with the review'''
-def setRateTest():
+def set_rate_test():
     pass
 
 '''Returns the contents of the review'''
-def getContentTest():
+def get_content_test():
     pass
 
 '''Allows teh user to write a review paragraph'''
-def setContentTest():
+def set_content_test():
     pass

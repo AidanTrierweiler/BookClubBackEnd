@@ -118,7 +118,7 @@ def addMemberTest():
 Assures that the correct list of books is returned
 '''
 def getBooksTest():
-    books = testClub0.getBooks()
+    books = testClub0.get_books()
     '''ID instead of book titles?'''
 
     '''make the real book titles once book JSON and implementation has been worked out'''
@@ -149,7 +149,7 @@ def addBookTest():
     '''create book here'''
     testClub0.addBook('''created book here''')
 
-    assert '''created book''' in testClub0.getBooks()
+    assert '''created book''' in testClub0.get_books()
 
 '''
 Assures that the meeting location attribute is updated correctly
