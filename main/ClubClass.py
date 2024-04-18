@@ -78,14 +78,14 @@ class Club:
     '''
     :return: a list of all books the club has read in the past
     '''
-    def getBooks(self):
+    def get_books(self):
         pass
 
     '''
     :param title: the title of a book that is being searched for in the club's books list
     :return: the book object that has the input title
     '''
-    def getBook(self, title):
+    def get_book(self, title):
         pass
 
     '''

@@ -11,45 +11,45 @@ class Review:
         pass
 
     '''Returns the ID of the review'''
-    def getID(self):
+    def get_id(self):
         pass
 
     '''Returns the user who wrote the review'''
-    def getUser(self):
+    def get_user(self):
         pass
 
     '''Sets the user for a new review'''
-    def setUser(self, User):
+    def set_user(self, User):
         pass
 
     '''Returns the book that the review is about'''
-    def getBook(self):
+    def get_book(self):
         pass
 
     '''Ties the review to a book'''
-    def setBook(self, Book):
+    def set_book(self, Book):
         pass
 
     '''Returns the date the review was written'''
-    def getDate(self):
+    def get_data(self):
         pass
 
     '''Sets the date for a new review'''
-    def setDate(self, Date):
+    def set_data(self, Date):
         pass
 
     '''Gets the rating from a review'''
-    def getRate(self):
+    def get_rate(self):
         pass
 
     '''Allows teh user to rate a book with the review'''
-    def setRate(self, rating):
+    def set_rate(self, rating):
         pass
 
     '''Returns the contents of the review'''
-    def getContent(self):
+    def get_content(self):
         pass
 
     '''Allows teh user to write a review paragraph'''
-    def setContent(self, content):
+    def set_content(self, content):
         pass
