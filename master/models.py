@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey, Table
+from master.database import Base
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -56,7 +57,7 @@ class Review(Base):
     id = Column(Integer, primary_key=True, index=True)
     date = Column(Date)
     rate = Column(Integer)
-    content = Column(String)
+    content = Column(String(20))
     # Define relationships
     user_id = Column(Integer, ForeignKey('users.id'))
     user = relationship("User", back_populates="reviews")
