@@ -2,6 +2,8 @@
     Class Outline: Matt
 '''
 
+import mysql.connector
+
 class Review:
 
     def __init__(self):
