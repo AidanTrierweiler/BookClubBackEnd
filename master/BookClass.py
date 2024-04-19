@@ -12,46 +12,42 @@ class Book:
         pass
 
     '''Get Book ID'''
-    def getID(self):
+    def get_id(self):
         pass
 
     '''Returns book title'''
-    def getTitle(self):
+    def get_title(self):
         pass
 
     '''Sets the book title if it doesnt have one'''
-    def SetTitle(self, name):
+    def set_title(self, name):
         pass
 
     '''Returns the books author'''
-    def getAuthor(self):
+    def get_author(self):
         pass
 
     '''Sets the Books author if it doesnt have one'''
-    def setAuthor(self, name):
+    def set_author(self, name):
         pass
 
     '''Returns the books release date'''
-    def getRelease(self):
-        pass
-
-    '''Sets the books release Date'''
-    def setRelease(self, date):
+    def get_release(self):
         pass
 
     '''Returns a list of all the books reviews'''
-    def getReviews(self):
+    def get_reviews(self):
         pass
 
     '''Reuturns the review of a book from a certain user'''
-    def getReview(self, user):
+    def get_review(self, user):
         pass
 
     '''Adds a review to a book'''
-    def addReview(self,Review, User):
+    def add_review(self, review):
         pass
 
     '''???'''
-    def updateRate(self, newRate):
+    def update_rate(self, newRate):
         pass
 
