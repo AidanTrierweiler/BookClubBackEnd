@@ -49,24 +49,32 @@ def set_book_test():
 
 '''Returns the date the review was written'''
 def get_date_test():
-    pass
+    result = test_review_0.get_date()
+
+    assert result == "PlaceHolder Date"
 
 '''Sets the date for a new review'''
 def set_date_test():
-    pass
+    test_review_0.set_date("04-19-24")
+
+    assert test_review_0.get_date() == "04-19-24"
 
 '''Gets the rating from a review'''
 def get_rate_test():
     pass
 
-'''Allows teh user to rate a book with the review'''
+'''Allows the user to rate a book with the review'''
 def set_rate_test():
     pass
 
 '''Returns the contents of the review'''
 def get_content_test():
-    pass
+    result = test_review_0.get_content()
+
+    assert result == "Placeholder content, content content content content content content"
 
 '''Allows teh user to write a review paragraph'''
 def set_content_test():
-    pass
+    test_review_0.set_content("This is a review, I love writing reviews. This was a good book.")
+
+    assert test_review_0.get_content == "This is a review, I love writing reviews. This was a good book."
