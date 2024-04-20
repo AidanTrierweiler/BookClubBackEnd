@@ -171,7 +171,8 @@
             "searchInfo": {
                 "textSnippet": "Fans of The Goblin Emperor, The Long Way to a Small, Angry Planet, The Language of Flowers, and Quarter Share will delight in this tale of humor, humanity, and the power of hope."
             }
-        },{
+        },
+    {
             "kind": "books#volume",
             "id": "ACllAAAAMAAJ",
             "etag": "c2RH/p0nnD4",
@@ -240,7 +241,8 @@
             "searchInfo": {
                 "textSnippet": "The book&#39;s eccentric, ailing author had become a celebrity to French and English-language readers alike, and his presence at the dinner was all the more unusual since Proust rarely went out. In fact, he would be dead only six months later."
             }
-        }, {
+        },
+    {
             "kind": "books#volume",
             "id": "qCDyT1q6OjIC",
             "etag": "AYUO4IadbT0",
@@ -318,7 +320,8 @@
                     }
                 ]
             }
-}, {
+},
+    {
             "kind": "books#volume",
             "id": "cKr9DwAAQBAJ",
             "etag": "FCKN8UHts2M",
@@ -415,8 +418,8 @@
             "searchInfo": {
                 "textSnippet": "In a sweetly appealing tale of overcoming your fears, newcomer Gaia Cornwall captures a moment between a patient and encouraging father and a determined little boy you can\u2019t help but root for."
             }
-        }
-    ,{
+        },
+    {
             "kind": "books#volume",
             "id": "IbFuuQEACAAJ",
             "etag": "rtX+Zw08qfM",
