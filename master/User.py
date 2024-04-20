@@ -1,8 +1,8 @@
 
-    '''
+'''
     Class outline: Aidan
     Class implementation
-    '''
+'''
 
 
 class UserSoftware:
@@ -70,17 +70,12 @@ class UserSoftware:
                 return book
         return None
 
-        # for book in self.books:
-        #     if book.getTitle() == title:
-        #         return book
-        # return None
 
-
-     '''
-        Returns a list of books by the specified author associated with the user
-        :param author: Author of the books to retrieve
-        :return: list[Book]
-        '''
+    '''
+    Returns a list of books by the specified author associated with the user
+    :param author: Author of the books to retrieve
+    :return: list[Book]
+    '''
     def getBooksByAuthor(self, author):
         for book in self.__books:
             if book.getAuthot() == author:
@@ -114,13 +109,8 @@ class UserSoftware:
                 return club
         return None
 
-        # for club in self.clubs:
-        #     if club.getName() == name:
-        #         return club
-        # return None
-
-      '''
-        Adds a club to the user's list of clubs
+    '''
+    Adds a club to the user's list of clubs
         :param club: Club object to add
         :return: None
         '''
