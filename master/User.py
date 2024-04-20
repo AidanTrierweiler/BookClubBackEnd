@@ -8,16 +8,16 @@
 class UserSoftware:
 
     def __init__(self, name, password):
-        self.name = name
-        self.password = password
-        self.books = []
-        self.clubs = []
-        self.ownedClubs = []
-        self.isMonthlyHost = False
-        self.reviews = []
+        self.__name = name
+        self.__password = password
+        self.__books = []
+        self.__clubs = []
+        self.__ownedClubs = []
+        self.__isMonthlyHost = False
+        self.__reviews = []
 
     def __repr__(self):
-        return f"User: self.name"
+        return f"User: {self.__name}"
 
     def getId(self):
         pass
@@ -27,7 +27,7 @@ class UserSoftware:
         '''
 
     def getName(self):
-        return self.name
+        return self.__name
 
     '''
     Sets the user's name
@@ -35,14 +35,14 @@ class UserSoftware:
     :return: None
     '''
     def setName(self, name):
-        self.name = name
+        self.__name = name
 
     '''
     Returns the user's password
     :return: str
      '''
     def getPassword(self):
-        return self.password
+        return self.__password
 
     '''
         Sets the user's password
@@ -50,14 +50,14 @@ class UserSoftware:
         :return: None
         '''
     def setPassword(self, password):
-        self.password = password
+        self.__password = password
 
     '''
         Returns a list of books associated with the user
         :return: list[Book]
         '''
     def getBooks(self):
-        return self.books
+        return self.__books
 
     '''
         Returns the book with the specified title associated with the user
@@ -65,7 +65,7 @@ class UserSoftware:
         :return: Book
         '''
     def getBook(self, title):
-        for book in self.books:
+        for book in self.__books:
             if book.getTitle() == title:
                 return book
         return None
@@ -82,7 +82,7 @@ class UserSoftware:
         :return: list[Book]
         '''
     def getBooksByAuthor(self, author):
-        for book in self.books:
+        for book in self.__books:
             if book.getAuthot() == author:
                 return book
         return None
@@ -93,14 +93,14 @@ class UserSoftware:
         :return: None
         '''
     def setBook(self, book):
-        self.books.append(book)
+        self.__books.append(book)
 
         '''
         Returns a list of clubs associated with the user
         :return: list[Club]
         '''
     def getClubs(self):
-        return self.clubs
+        return self.__clubs
 
 
     '''
@@ -109,7 +109,7 @@ class UserSoftware:
         :return: Club
         '''
     def getClub(self, name):
-        for club in self.clubs:
+        for club in self.__clubs:
             if club.getName() == name:
                 return club
         return None
@@ -125,7 +125,7 @@ class UserSoftware:
         :return: None
         '''
     def addClub(self, club):
-        self.clubs.append(club)
+        self.__clubs.append(club)
 
 
     '''
@@ -133,14 +133,14 @@ class UserSoftware:
             :return: bool
             '''
     def isMonthlyHost(self):
-        return self.isMonthlyHost
+        return self.__isMonthlyHost
 
     '''
             Returns a list of reviews associated with the user
             :return: list[Review]
             '''
     def getReviews(self):
-        return self.reviews
+        return self.__reviews
 
     '''
             Returns a list of reviews written on the specified date associated with the user
@@ -148,7 +148,7 @@ class UserSoftware:
             :return: list[Review]
             '''
     def getReviewByDate(self, date):
-        for review in self.reviews:
+        for review in self.__reviews:
             if review.getDate() == date:
                 return review
         return None
@@ -160,7 +160,7 @@ class UserSoftware:
             '''
     def getReviewByRate(self, rate):
         reviewList = []
-        for review in self.reviews:
+        for review in self.__reviews:
             if review.getRate() == rate:
                 reviewList.append(review)
         if len(reviewList) == 0:
@@ -173,5 +173,5 @@ class UserSoftware:
             :return: None
             '''
     def addReview(self, review):
-        self.reviews.append(review)
+        self.__reviews.append(review)
 

@@ -13,7 +13,7 @@ test_club_1 = ClubClass()
 '''set all attributes of testClub1'''
 test_user_0 = User()
 test_director_user_0 = User()
-test_director_user_0.ownedClubs.add(test_club_1)
+test_director_user_0.__ownedClubs.add(test_club_1)
 
 '''Make test_user_1 have the name "Tester One"'''
 test_user_1 = User()
