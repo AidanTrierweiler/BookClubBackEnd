@@ -1,0 +1,790 @@
+[{
+            "kind": "books#volume",
+            "id": "k1nCE5hSoTkC",
+            "etag": "Zo6GQkLl7Gc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/k1nCE5hSoTkC",
+            "volumeInfo": {
+                "title": "The Language of Flowers",
+                "subtitle": "A Novel",
+                "authors": [
+                    "Vanessa Diffenbaugh"
+                ],
+                "publisher": "Random House Digital, Inc.",
+                "publishedDate": "2011",
+                "description": "\"The story of a woman whose gift for flowers helps her change the lives of others even as she struggles to overcome her own past\"--Provided by publisher.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780345525543"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "034552554X"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 338,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.7.1.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=k1nCE5hSoTkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=k1nCE5hSoTkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=k1nCE5hSoTkC&printsec=frontcover&dq=flowers+inauthor&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=k1nCE5hSoTkC&dq=flowers+inauthor&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Language_of_Flowers.html?hl=&id=k1nCE5hSoTkC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=k1nCE5hSoTkC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;The story of a woman whose gift for flowers helps her change the lives of others even as she struggles to overcome her own past&quot;--Provided by publisher."
+            }
+},
+{
+            "kind": "books#volume",
+            "id": "ZJk3EAAAQBAJ",
+            "etag": "guvYBfR8rP8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ZJk3EAAAQBAJ",
+            "volumeInfo": {
+                "title": "Oil and Dust",
+                "authors": [
+                    "Jami Fairleigh"
+                ],
+                "publisher": "Kitsune Publishing",
+                "publishedDate": "2021-09-01",
+                "description": "When all has been lost, we find ourselves\u2026 Out of the ashes of destruction, a new world has arisen. The plagues of the past\u2014the worship of greed and pursuit of power\u2014are gone. Now, the communities that remain in this post-apocalyptic world focus on creating connections, on forging futures filled with family and love. And all with the help of hard work, hope\u2026 and a little bit of magic. Artist Matthew Sugiyama knows this well. Traveling the countryside in search of the family he lost as a child, he trades his art for supplies\u2014and uses his honed magic to re-draw the boundaries of reality, to fashion a world that is better for those he meets. Following glimpses of visions half-seen, Matthew\u2014and the friends he encounters along the way\u2014will travel a path from light to darkness and back again. A road where things lost in the past can only be found in the love of the present, and the hope for the future. And he will travel this path wherever it leads. From joy to sorrow, from tears to laughter. Because Matthew is the Elemental Artist, and he knows that though dangers arise, humanity will always triumph\u2026 in a world he has painted in shades of Oil and Dust. Author Jami Farleigh invites you to meet a rich tapestry of characters, and to travel through a world that blends fantasy, laughter, coming of age, and evocative literary stylings to create a perfect escape. Fans of The Goblin Emperor, The Long Way to a Small, Angry Planet, The Language of Flowers, and Quarter Share will delight in this tale of humor, humanity, and the power of hope. Click \u201cBuy Now,\u201d to curl up with your copy of Oil and Dust today!",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781955428002"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "195542800X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 509,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.5.5.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ZJk3EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ZJk3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=ZJk3EAAAQBAJ&printsec=frontcover&dq=The+inauthor&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ZJk3EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZJk3EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ZJk3EAAAQBAJ&rdid=book-ZJk3EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 4990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 4990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ZJk3EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Fans of The Goblin Emperor, The Long Way to a Small, Angry Planet, The Language of Flowers, and Quarter Share will delight in this tale of humor, humanity, and the power of hope."
+            }
+        },
+    {
+            "kind": "books#volume",
+            "id": "ACllAAAAMAAJ",
+            "etag": "c2RH/p0nnD4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ACllAAAAMAAJ",
+            "volumeInfo": {
+                "title": "Proust at the Majestic",
+                "subtitle": "The Last Days of the Author Whose Book Changed Paris",
+                "authors": [
+                    "Richard Davenport-Hines"
+                ],
+                "publisher": "Bloomsbury Publishing USA",
+                "publishedDate": "2006-06",
+                "description": "Presents a study of the final days of the seminal author and discusses his upbringing, themes in his works, his rise as a famous writer, and the final months before his death.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015064905527"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 376,
+                "printType": "BOOK",
+                "categories": [
+                    "Biography & Autobiography"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.1.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ACllAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ACllAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=ACllAAAAMAAJ&q=The+inauthor&dq=The+inauthor&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=ACllAAAAMAAJ&dq=The+inauthor&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Proust_at_the_Majestic.html?hl=&id=ACllAAAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ACllAAAAMAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The book&#39;s eccentric, ailing author had become a celebrity to French and English-language readers alike, and his presence at the dinner was all the more unusual since Proust rarely went out. In fact, he would be dead only six months later."
+            }
+        },
+    {
+            "kind": "books#volume",
+            "id": "qCDyT1q6OjIC",
+            "etag": "AYUO4IadbT0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/qCDyT1q6OjIC",
+            "volumeInfo": {
+                "title": "I Am the Messenger",
+                "authors": [
+                    "Markus Zusak"
+                ],
+                "publisher": "Knopf Books for Young Readers",
+                "publishedDate": "2007-12-18",
+                "description": "DON\u2019T MISS BRIDGE OF CLAY, MARKUS ZUSAK\u2019S FIRST NOVEL SINCE THE BOOK THIEF AND AN UNFORGETTABLE AND SWEEPING FAMILY SAGA. From the author of the extraordinary #1 New York Times bestseller The Book Thief, I Am the Messenger is an acclaimed novel filled with laughter, fists, and love. A MICHAEL L. PRINTZ HONOR BOOK FIVE STARRED REVIEWS Ed Kennedy is an underage cabdriver without much of a future. He's pathetic at playing cards, hopelessly in love with his best friend, Audrey, and utterly devoted to his coffee-drinking dog, the Doorman. His life is one of peaceful routine and incompetence until he inadvertently stops a bank robbery. That's when the first ace arrives in the mail. That's when Ed becomes the messenger. Chosen to care, he makes his way through town helping and hurting (when necessary) until only one question remains: Who's behind Ed's mission?",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780307433480"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "030743348X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 370,
+                "printType": "BOOK",
+                "categories": [
+                    "Young Adult Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 34,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "3.16.12.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=qCDyT1q6OjIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=qCDyT1q6OjIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=qCDyT1q6OjIC&printsec=frontcover&dq=The+inauthor&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=qCDyT1q6OjIC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qCDyT1q6OjIC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=qCDyT1q6OjIC&rdid=book-qCDyT1q6OjIC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            }
+},
+    {
+            "kind": "books#volume",
+            "id": "cKr9DwAAQBAJ",
+            "etag": "FCKN8UHts2M",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/cKr9DwAAQBAJ",
+            "volumeInfo": {
+                "title": "Jabari Jumps",
+                "authors": [
+                    "Gaia Cornwall"
+                ],
+                "publisher": "Candlewick Press",
+                "publishedDate": "2020-10-06",
+                "description": "Working up the courage to take a big, important leap is hard, but Jabari is almost absolutely ready to make a giant splash. Jabari is definitely ready to jump off the diving board. He\u2019s finished his swimming lessons and passed his swim test, and he\u2019s a great jumper, so he\u2019s not scared at all. \u201cLooks easy,\u201d says Jabari, watching the other kids take their turns. But when his dad squeezes his hand, Jabari squeezes back. He needs to figure out what kind of special jump to do anyway, and he should probably do some stretches before climbing up onto the diving board. In a sweetly appealing tale of overcoming your fears, newcomer Gaia Cornwall captures a moment between a patient and encouraging father and a determined little boy you can\u2019t help but root for.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781536220674"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1536220671"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 32,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.2.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=cKr9DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=cKr9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=cKr9DwAAQBAJ&printsec=frontcover&dq=The+inauthor&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=cKr9DwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cKr9DwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 5.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=cKr9DwAAQBAJ&rdid=book-cKr9DwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Jabari_Jumps-sample-epub.acsm?id=cKr9DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Jabari_Jumps-sample-pdf.acsm?id=cKr9DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=cKr9DwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In a sweetly appealing tale of overcoming your fears, newcomer Gaia Cornwall captures a moment between a patient and encouraging father and a determined little boy you can\u2019t help but root for."
+            }
+        },
+    {
+            "kind": "books#volume",
+            "id": "IbFuuQEACAAJ",
+            "etag": "rtX+Zw08qfM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/IbFuuQEACAAJ",
+            "volumeInfo": {
+                "title": "The Hate U Give",
+                "authors": [
+                    "Angie Thomas"
+                ],
+                "publishedDate": "2018-08",
+                "description": "Read the book that inspired the movie! Sixteen-year-old Starr lives in two worlds: the poor neighbourhood where she was born and raised and her posh high school in the suburbs. The uneasy balance between them is shattered when Starr is the only witness to the fatal shooting of her unarmed best friend, Khalil, by a police officer. Now what Starr says could destroy her community. It could also get her killed. Inspired by the Black Lives Matter movement, this is a powerful and gripping novel about one girl's struggle for justice.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1406387932"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781406387933"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 437,
+                "printType": "BOOK",
+                "categories": [
+                    "Police shootings"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=IbFuuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=IbFuuQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=IbFuuQEACAAJ&dq=The+inauthor&hl=&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=IbFuuQEACAAJ&dq=The+inauthor&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Hate_U_Give.html?hl=&id=IbFuuQEACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=IbFuuQEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "It could also get her killed. Inspired by the Black Lives Matter movement, this is a powerful and gripping novel about one girl&#39;s struggle for justice.The Hate U Give film will be released in Australian cinemas in January 2019."
+            }
+        },{
+            "kind": "books#volume",
+            "id": "DGy29uD2mC8C",
+            "etag": "vtzIMyqVuR4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/DGy29uD2mC8C",
+            "volumeInfo": {
+                "title": "The Orchid Thief",
+                "subtitle": "A True Story of Beauty and Obsession",
+                "authors": [
+                    "Susan Orlean"
+                ],
+                "publisher": "Ballantine Books",
+                "publishedDate": "2011-07-20",
+                "description": "NEW YORK TIMES BESTSELLER \u2022 A NEW YORK TIMES NOTABLE BOOK A modern classic of personal journalism, The Orchid Thief is Susan Orlean\u2019s wickedly funny, elegant, and captivating tale of an amazing obsession. Determined to clone an endangered flower\u2014the rare ghost orchid Polyrrhiza lindenii\u2014a deeply eccentric and oddly attractive man named John Laroche leads Orlean on an unforgettable tour of America\u2019s strange flower-selling subculture, through Florida\u2019s swamps and beyond, along with the Seminoles who help him and the forces of justice who fight him. In the end, Orlean\u2014and the reader\u2014will have more respect for underdog determination and a powerful new definition of passion. In this new edition, coming fifteen years after its initial publication and twenty years after she first met the \u201corchid thief,\u201d Orlean revisits this unforgettable world, and the route by which it was brought to the screen in the film Adaptation, in a new retrospective essay. Look for special features inside. Join the Random House Reader\u2019s Circle for author chats and more. Praise for The Orchid Thief \u201cStylishly written, whimsical yet sophisticated, quirkily detailed and full of empathy . . . The Orchid Thief shows [Orlean\u2019s] gifts in full bloom.\u201d\u2014The New York Times Book Review \u201cFascinating . . . an engrossing journey [full] of theft, hatred, greed, jealousy, madness, and backstabbing.\u201d\u2014Los Angeles Times \u201cOrlean\u2019s snapshot-vivid, pitch-perfect prose . . . is fast becoming one of our national treasures.\u201d\u2014The Washington Post Book World \u201cOrlean\u2019s gifts [are] her ear for the self-skewing dialogue, her eye for the incongruous, convincing detail, and her Didion-like deftness in description.\u201d\u2014Boston Sunday Globe \u201cA swashbuckling piece of reporting that celebrates some virtues that made America great.\u201d\u2014The Wall Street Journal",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780307795298"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0307795292"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 320,
+                "printType": "BOOK",
+                "categories": [
+                    "Biography & Autobiography"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.6.5.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=DGy29uD2mC8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=DGy29uD2mC8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=DGy29uD2mC8C&printsec=frontcover&dq=The+inauthor&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=DGy29uD2mC8C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DGy29uD2mC8C"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 14.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 14.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=DGy29uD2mC8C&rdid=book-DGy29uD2mC8C&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 14990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 14990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/The_Orchid_Thief-sample-epub.acsm?id=DGy29uD2mC8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=DGy29uD2mC8C&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In this new edition, coming fifteen years after its initial publication and twenty years after she first met the \u201corchid thief,\u201d Orlean revisits this unforgettable world, and the route by which it was brought to the screen in the film ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "F23AAgAAQBAJ",
+            "etag": "evDwLdqWn4U",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/F23AAgAAQBAJ",
+            "volumeInfo": {
+                "title": "J.R.R. Tolkien",
+                "subtitle": "Author of the Century",
+                "authors": [
+                    "Tom Shippey"
+                ],
+                "publisher": "HMH",
+                "publishedDate": "2014-02-21",
+                "description": "The definitive Tolkien companion\u2014an indispensable guide to The Hobbit, The Lord of the Rings, and more, from the author of The Road to Middle-earth. This \u201chighly erudite celebration and exploration of Tolkien\u2019s works [is] enormous fun,\u201d declared the Houston Chronicle, and Tom Shippey, a prominent medievalist and scholar of fantasy, \u201cdeepens your understanding\u201d without \u201cmaking you forget your initial, purely instinctive response to Middle-earth and hobbits.\u201d In a clear and accessible style, Shippey offers a new approach to Tolkien, to fantasy, and to the importance of language in literature. He breaks down The Lord of the Rings as a linguistic feast for the senses and as a response to the human instinct for myth. Elsewhere, he examines The Hobbit\u2019s counterintuitive relationship to the heroic world of Middle-earth; demonstrates the significance of The Silmarillion to Tolkien\u2019s canon; and takes an illuminating look at lesser-known works in connection with Tolkien\u2019s life. Furthermore, he ties all these strands together in a continuing tradition that traces its roots back through Grimms\u2019 Fairy Tales to Beowulf. \u201cShippey\u2019s commentary is the best so far in elucidating Tolkien\u2019s lovely myth,\u201d wrote Harper\u2019s Magazine. J.R.R. Tolkien: Author of the Century is \u201ca triumph\u201d (Chicago Sun-Times) that not only gives readers a deeper understanding of Tolkien and his work, but also serves as an entertaining introduction to some of the most influential novels ever written.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780547524436"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0547524439"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 389,
+                "printType": "BOOK",
+                "categories": [
+                    "Biography & Autobiography"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.14.12.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=F23AAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=F23AAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=F23AAgAAQBAJ&printsec=frontcover&dq=The+inauthor&hl=&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=F23AAgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=F23AAgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 17.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 17.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=F23AAgAAQBAJ&rdid=book-F23AAgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 17990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 17990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/J_R_R_Tolkien-sample-epub.acsm?id=F23AAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/J_R_R_Tolkien-sample-pdf.acsm?id=F23AAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=F23AAgAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "J.R.R. Tolkien: Author of the Century is \u201ca triumph\u201d (Chicago Sun-Times) that not only gives readers a deeper understanding of Tolkien and his work, but also serves as an entertaining introduction to some of the most influential novels ..."
+            }
+        }, {
+            "kind": "books#volume",
+            "id": "qCDyT1q6OjIC",
+            "etag": "AYUO4IadbT0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/qCDyT1q6OjIC",
+            "volumeInfo": {
+                "title": "I Am the Messenger",
+                "authors": [
+                    "Markus Zusak"
+                ],
+                "publisher": "Knopf Books for Young Readers",
+                "publishedDate": "2007-12-18",
+                "description": "DON\u2019T MISS BRIDGE OF CLAY, MARKUS ZUSAK\u2019S FIRST NOVEL SINCE THE BOOK THIEF AND AN UNFORGETTABLE AND SWEEPING FAMILY SAGA. From the author of the extraordinary #1 New York Times bestseller The Book Thief, I Am the Messenger is an acclaimed novel filled with laughter, fists, and love. A MICHAEL L. PRINTZ HONOR BOOK FIVE STARRED REVIEWS Ed Kennedy is an underage cabdriver without much of a future. He's pathetic at playing cards, hopelessly in love with his best friend, Audrey, and utterly devoted to his coffee-drinking dog, the Doorman. His life is one of peaceful routine and incompetence until he inadvertently stops a bank robbery. That's when the first ace arrives in the mail. That's when Ed becomes the messenger. Chosen to care, he makes his way through town helping and hurting (when necessary) until only one question remains: Who's behind Ed's mission?",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780307433480"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "030743348X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 370,
+                "printType": "BOOK",
+                "categories": [
+                    "Young Adult Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 34,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "3.16.12.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=qCDyT1q6OjIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=qCDyT1q6OjIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=qCDyT1q6OjIC&printsec=frontcover&dq=The+inauthor&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=qCDyT1q6OjIC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qCDyT1q6OjIC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=qCDyT1q6OjIC&rdid=book-qCDyT1q6OjIC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/I_Am_the_Messenger-sample-epub.acsm?id=qCDyT1q6OjIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/I_Am_the_Messenger-sample-pdf.acsm?id=qCDyT1q6OjIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=qCDyT1q6OjIC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "DON\u2019T MISS BRIDGE OF CLAY, MARKUS ZUSAK\u2019S FIRST NOVEL SINCE THE BOOK THIEF AND AN UNFORGETTABLE AND SWEEPING FAMILY SAGA."
+            }
+        }]

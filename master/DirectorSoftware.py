@@ -5,9 +5,9 @@
     '''
 
 
-    class DirectorSoftware(MemberSoftware):
+class DirectorSoftware(MemberSoftware):
 
-        # needs to have the club the director is trying to work one and a list of all users from that club from the DB
+    # needs to have the club the director is trying to work one and a list of all users from that club from the DB
     def __init__(self):
         pass
 
