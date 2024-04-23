@@ -1,53 +1,70 @@
+from master.database import Base
+from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey, Table
+from sqlalchemy.orm import relationship, declarative_base
+from database import session
+from models import Book
+
 '''
     Class Outline: Matt
 '''
-
-class Book:
-
-    def __init__(self):
-        pass
+Base = declarative_base()
 
 
-    def __repr__(self):
-        pass
 
-    '''Get Book ID'''
-    def get_id(self):
-        pass
+'''Add book to databse'''
 
-    '''Returns book title'''
-    def get_title(self):
-        pass
+def set_book(book):
+    # Add the book to the session
+    session.add(book)
 
-    '''Sets the book title if it doesnt have one'''
-    def set_title(self, name):
-        pass
+    # Commit the transaction to persist the book to the database
+    session.commit()
 
-    '''Returns the books author'''
-    def get_author(self):
-        pass
+'''Returns book from given id'''
+def get_book_from_id(id):
+    id_book = session.query(Book).filter(Book.id == id).first()
+    if (id_book == None):
+        print("There is no book with this id")
+    else:
+        return id_book
 
-    '''Sets the Books author if it doesnt have one'''
-    def set_author(self, name):
-        pass
+'''Returns book with specific title'''
+def get_book_from_title(term):
+    title_book = session.query(Book).filter(Book.title == term).first()
+    if(title_book == None):
+        print("There is no book with this title")
+    else:
+        return title_book
 
-    '''Returns the books release date'''
-    def get_release(self):
-        pass
+'''Return the books of a specific author'''
+def get_author(name):
+    auth_books = session.query(Book).filter(Book.title == name).first()
+    if (auth_books == None):
+        print("There is no book with this title")
+    else:
+        return auth_books
 
-    '''Returns a list of all the books reviews'''
-    def get_reviews(self):
-        pass
+'''Sets the Books author if it doesnt have one'''
+def set_author(book, name):
+    pass
 
-    '''Reuturns the review of a book from a certain user'''
-    def get_review(self, user):
-        pass
+'''Returns the books release date'''
+def get_release(self):
+    pass
 
-    '''Adds a review to a book'''
-    def add_review(self, review):
-        pass
+'''Returns a list of all the books reviews'''
+def get_reviews(self):
+    pass
 
-    '''???'''
-    def update_rate(self, newRate):
-        pass
+'''Reuturns the review of a book from a certain user'''
+def get_review(self, user):
+    pass
+
+'''Adds a review to a book'''
+def add_review(self, review):
+    pass
+
+'''???'''
+def update_rate(self, newRate):
+    pass
 
