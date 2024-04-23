@@ -34,11 +34,6 @@ class Book(Base):
     owner = relationship("User", back_populates="books")
     reviews = relationship("Review", back_populates="book")
 
-    def __init__(self, title, author, rate):
-        self.title = title
-        self.author = author
-        self.rate = rate
-
 
 class Club(Base):
     __tablename__ = 'clubs'
@@ -54,9 +49,6 @@ class Club(Base):
     monthly_host = relationship("User", foreign_keys=[monthly_host_id])
     members = relationship("User", secondary="club_members", back_populates="clubs")
 
-    def __init__(self, name, director_id):
-        self.name = name
-        self.director = director_id
 
 class Review(Base):
     __tablename__ = 'reviews'
@@ -77,4 +69,3 @@ club_members = Table('club_members', Base.metadata,
                      Column('club_id', Integer, ForeignKey('clubs.id')),
                      Column('user_id', Integer, ForeignKey('users.id'))
                      )
-

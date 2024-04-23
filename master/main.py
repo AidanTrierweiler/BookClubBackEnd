@@ -16,7 +16,7 @@ class UserBase(BaseModel):
     id: int
     name: str
     password: str
-    is_monthly_host: bool
+    isMonthlyHost: bool
 
 class BookBase(BaseModel):
     id: int
