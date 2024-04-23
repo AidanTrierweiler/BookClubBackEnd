@@ -85,23 +85,26 @@ def getFromDirector(director):
 """User Functions"""
 
 '''Adds new suer to database'''
-def setName(self, name):
-    self.__name = name
-def getId(self):
-    pass
-    '''
-    Returns the user's ID
-    :return: int
-    '''
+def setUser(user):
+    session.add(user)
+    session.commit()
 
-def getName(self):
-    return self.__name
+'''Gets a user from teh databse given an id'''
+def getUserFromId(id):
+    id_user = session.query(User).filter(User.id == id).first()
+    if (id_user == None):
+        print("There is no book with this id")
+    else:
+        return id_user
 
-'''
-Sets the user's name
-:param name: New name for the user
-:return: None
-'''
+'''Gets a user from their email'''
+def getUserFromEmail(email):
+    email_user = session.query(User).filter(User.email == email).first()
+    if (email_user == None):
+        print("There is no book with this id")
+    else:
+        return email_user
+
 
 
 
