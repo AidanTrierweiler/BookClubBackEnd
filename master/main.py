@@ -6,7 +6,7 @@ import master.models
 from master.database import engine, SessionLocal
 from sqlalchemy.orm import Session
 from database import session
-from BookClass import *
+from crud import *
 
 app = FastAPI()
 master.models.Base.metadata.create_all(bind=engine)
