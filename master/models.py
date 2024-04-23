@@ -54,6 +54,9 @@ class Club(Base):
     monthly_host = relationship("User", foreign_keys=[monthly_host_id])
     members = relationship("User", secondary="club_members", back_populates="clubs")
 
+    def __init__(self, name, director_id):
+        self.name = name
+        self.director = director_id
 
 class Review(Base):
     __tablename__ = 'reviews'
