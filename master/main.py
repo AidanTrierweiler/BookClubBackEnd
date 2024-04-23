@@ -64,7 +64,7 @@ for book in all_books:
 @app.post("/users/", status_code=status.HTTP_201_CREATED)
 async def create_user(user: UserBase, db: db_dependency):
     db_user = master.models.User(**user.dict())
-    db.add(user)
+    db.add(db_user)
     db.commit()
 
 
