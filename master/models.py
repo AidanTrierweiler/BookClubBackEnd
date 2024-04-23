@@ -16,7 +16,7 @@ class User(Base):
     # Define relationships
     books = relationship("Book", back_populates="owner", cascade="all, delete")
     clubs = relationship("Club", secondary="club_members", back_populates="members")
-    ownedClubs = relationship("Club", back_populates="director")
+    ownedClubs = relationship("Club", primaryjoin="User.id == Club.director_id", back_populates="director")
     reviews = relationship("Review", back_populates="user")
 
 
@@ -45,8 +45,8 @@ class Club(Base):
     meeting_location = Column(String(100))
 
     # Define relationships
-    director = relationship("User", back_populates="ownedClubs", foreign_keys=[director_id])
-    monthly_host = relationship("User", foreign_keys=[monthly_host_id])
+    director = relationship("User", primaryjoin="Club.director_id == User.id", back_populates="ownedClubs")
+    #monthly_host = relationship("User", foreign_keys=[monthly_host_id])
     members = relationship("User", secondary="club_members", back_populates="clubs")
 
 
