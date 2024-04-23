@@ -11,12 +11,15 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(20))
     password = Column(String(20))
-    isMonthlyHost = Column(Boolean)
+    isMonthlyHost = Column(Boolean)  # Renamed column
 
     # Define relationships
     books = relationship("Book", back_populates="owner", cascade="all, delete")
     clubs = relationship("Club", secondary="club_members", back_populates="members")
-    ownedClubs = relationship("Club", back_populates="director")
+    ownedClubs = relationship("Club", back_populates="director",
+                              foreign_keys="[Club.director_id]")  # Specify foreign key column
+    monthly_host_clubs = relationship("Club", back_populates="monthly_host",
+                                      foreign_keys="[Club.monthly_host_id]")  # Specify foreign key column
     reviews = relationship("Review", back_populates="user")
 
 
@@ -46,7 +49,7 @@ class Club(Base):
 
     # Define relationships
     director = relationship("User", back_populates="ownedClubs", foreign_keys=[director_id])
-    monthly_host = relationship("User", foreign_keys=[monthly_host_id])
+    monthly_host = relationship("User", back_populates="monthly_host_clubs", foreign_keys=[monthly_host_id])
     members = relationship("User", secondary="club_members", back_populates="clubs")
 
 
@@ -56,7 +59,7 @@ class Review(Base):
     id = Column(Integer, primary_key=True, index=True)
     date = Column(Date)
     rate = Column(Integer)
-    content = Column(String(20))
+    content = Column(String(255))  # Adjusted length or change to Text if needed
     # Define relationships
     user_id = Column(Integer, ForeignKey('users.id'))
     user = relationship("User", back_populates="reviews")
