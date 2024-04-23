@@ -12,29 +12,6 @@ app = FastAPI()
 master.models.Base.metadata.create_all(bind=engine)
 
 
-class UserBase(BaseModel):
-    id: int
-    name: str
-    password: str
-    isMonthlyHost: bool
-
-class BookBase(BaseModel):
-    id: int
-    title: str
-    author: str
-    rate: int
-    release: date
-
-    # class ClubBase(BaseModel):
-    #     id: int
-    #     name: str
-    #     director: User
-    #     monthly_host: User
-    #     members: List[User]
-    #     books: List[Book]
-    #     meeting_location: str
-
-
 def get_db():
     db = SessionLocal()
     try:
