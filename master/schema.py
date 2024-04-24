@@ -16,7 +16,7 @@ class Review(ReviewBase):
     book_id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class BookBase(BaseModel):
     title: str = Field(..., max_length=100)
@@ -33,7 +33,7 @@ class Book(BookBase):
     reviews: List[Review] = []
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class ClubBase(BaseModel):
     name: str = Field(..., max_length=100)
@@ -51,7 +51,7 @@ class Club(ClubBase):
     members: List[int] = []
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class UserBase(BaseModel):
     name: str = Field(..., max_length=20)
@@ -69,4 +69,4 @@ class User(UserBase):
     reviews: List[Review] = []
 
     class Config:
-        orm_mode = True
+        from_attributes = True
