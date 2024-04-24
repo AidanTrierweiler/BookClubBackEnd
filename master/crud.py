@@ -21,7 +21,7 @@ def set_book(book, session):
     session.commit()
 
 '''Returns book from given id'''
-def get_book_from_id(id):
+def get_book_from_id(id, session):
     id_book = session.query(Book).filter(Book.id == id).first()
     if (id_book == None):
         print("There is no book with this id")
@@ -37,12 +37,11 @@ def get_book_from_title(title, session):
         return title_book
 
 '''Return the books of a specific author'''
-def get_author(name):
-    auth_books = session.query(Book).filter(Book.title == name).first()
-    if (auth_books == None):
-        print("There is no book with this title")
-    else:
-        return auth_books
+def get_author(name, session):
+    auth_books = session.query(Book).filter(Book.author == name).all()
+    if not auth_books:
+        print("There are no books by this author")
+    return auth_books
 
 
 
