@@ -4,8 +4,6 @@ from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey, Table
 from master.database import Base
 from sqlalchemy.orm import relationship, declarative_base, validates
 
-Base = declarative_base()
-
 
 class User(Base):
     __tablename__ = 'users'

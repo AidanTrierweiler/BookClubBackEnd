@@ -14,10 +14,9 @@ Base = declarative_base()
 """Book Functoins"""
 
 '''Add Book to Database'''
-def set_book(book):
+def set_book(book, session):
     # Add the book to the session
     session.add(book)
-
     # Commit the transaction to persist the book to the database
     session.commit()
 
@@ -30,9 +29,9 @@ def get_book_from_id(id):
         return id_book
 
 '''Returns book with specific title'''
-def get_book_from_title(term):
-    title_book = session.query(Book).filter(Book.title == term).first()
-    if(title_book == None):
+def get_book_from_title(title, session):
+    title_book = session.query(Book).filter(Book.title == title).first()
+    if title_book is None:
         print("There is no book with this title")
     else:
         return title_book
