@@ -5,8 +5,9 @@ from typing import Annotated
 import master.models
 from master.database import engine, SessionLocal
 from sqlalchemy.orm import Session
-from database import session
-from crud import *
+from master.database import session
+from master.crud import *
+from master.schema import *
 
 app = FastAPI()
 master.models.Base.metadata.create_all(bind=engine)

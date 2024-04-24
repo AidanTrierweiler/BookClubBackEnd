@@ -1,8 +1,9 @@
 from master.database import Base
 from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey, Table
 from sqlalchemy.orm import relationship, declarative_base
-from database import session
-from models import Book, Club, User
+from master.database import session
+from master.models import Book, Club, User
+
 
 '''
     Class Outline: Matt
