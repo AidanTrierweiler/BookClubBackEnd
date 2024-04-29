@@ -10,9 +10,9 @@ class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(20))
-    email = Column(String(20))
-    password = Column(String(20))
+    name = Column(String(50))
+    email = Column(String(50))
+    password = Column(String(50))
     isMonthlyHost = Column(Boolean)
 
     # Define relationships
