@@ -11,7 +11,7 @@ class User(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(20))
-    email = Column(String)
+    email = Column(String(20))
     password = Column(String(20))
     isMonthlyHost = Column(Boolean)
 
