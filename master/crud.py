@@ -49,7 +49,7 @@ def get_author(name, session):
 """Club Functions"""
 
 '''Adds a club to database'''
-def setClub(club):
+def set_club(club, session):
     session.add(club)
     session.commit()
 
@@ -65,7 +65,7 @@ def getFromId(id):
 '''
 Gets club with certain name
 '''
-def getFromName(name):
+def get_club_from_name(name, session):
     name_club = session.query(Club).filter(Club.name == name).first()
     if (name_club == None):
         print("There is no book with this id")
@@ -73,12 +73,12 @@ def getFromName(name):
         return name_club
 
 '''Gets clubs with certain director'''
-def getFromDirector(director):
-    director_clubs = session.query(Club).filter(Club.director_id == director).first()
-    if (director_clubs == None):
-        print("There is no book with this id")
-    else:
-        return director_clubs
+#def getFromDirector(director):
+ #   director_clubs = session.query(Club).filter(Club.director_id == director).first()
+  #  if (director_clubs == None):
+   #     print("There is no book with this id")
+    #else:
+     #   return director_clubs
 
 
 
