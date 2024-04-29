@@ -1,23 +1,35 @@
+# from typing import re
+
+import re
 from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey, Table
 from master.database import Base
-from sqlalchemy.orm import relationship, declarative_base
-
-Base = declarative_base()
+from sqlalchemy.orm import relationship, declarative_base, validates
 
 
 class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(20))
-    password = Column(String(20))
+    name = Column(String(50))
+    email = Column(String(50))
+    password = Column(String(50))
     isMonthlyHost = Column(Boolean)
 
     # Define relationships
     books = relationship("Book", back_populates="owner", cascade="all, delete")
     clubs = relationship("Club", secondary="club_members", back_populates="members")
-    ownedClubs = relationship("Club", back_populates="director")
+    ownedClubs = relationship("Club", primaryjoin="User.id == Club.director_id", back_populates="director")
     reviews = relationship("Review", back_populates="user")
+
+    # @validates('email')
+    # def validate_email(self, key, email):
+    #     # Regular expression pattern for validating email addresses
+    #     email_pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
+    #
+    #     if not email_pattern.match(email):
+    #         raise ValueError("Invalid email address format")
+    #
+    #     return email
 
 
 class Book(Base):
@@ -45,8 +57,8 @@ class Club(Base):
     meeting_location = Column(String(100))
 
     # Define relationships
-    director = relationship("User", back_populates="ownedClubs", foreign_keys=[director_id])
-    monthly_host = relationship("User", foreign_keys=[monthly_host_id])
+    director = relationship("User", primaryjoin="Club.director_id == User.id", back_populates="ownedClubs")
+    #monthly_host = relationship("User", foreign_keys=[monthly_host_id])
     members = relationship("User", secondary="club_members", back_populates="clubs")
 
 
