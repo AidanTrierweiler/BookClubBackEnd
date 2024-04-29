@@ -1,5 +1,6 @@
-from typing import re
+# from typing import re
 
+import re
 from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey, Table
 from master.database import Base
 from sqlalchemy.orm import relationship, declarative_base, validates
@@ -9,9 +10,9 @@ class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(20))
-    email = Column(String)
-    password = Column(String(20))
+    name = Column(String(50))
+    email = Column(String(50))
+    password = Column(String(50))
     isMonthlyHost = Column(Boolean)
 
     # Define relationships
@@ -20,15 +21,15 @@ class User(Base):
     ownedClubs = relationship("Club", primaryjoin="User.id == Club.director_id", back_populates="director")
     reviews = relationship("Review", back_populates="user")
 
-    @validates('email')
-    def validate_email(self, key, email):
-        # Regular expression pattern for validating email addresses
-        email_pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
-
-        if not email_pattern.match(email):
-            raise ValueError("Invalid email address format")
-
-        return email
+    # @validates('email')
+    # def validate_email(self, key, email):
+    #     # Regular expression pattern for validating email addresses
+    #     email_pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
+    #
+    #     if not email_pattern.match(email):
+    #         raise ValueError("Invalid email address format")
+    #
+    #     return email
 
 
 class Book(Base):

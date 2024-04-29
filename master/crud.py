@@ -5,6 +5,7 @@ from master.database import session
 from master.models import Book, Club, User
 
 
+
 '''
     Class Outline: Matt
 '''
@@ -83,24 +84,26 @@ def getFromDirector(director):
 
 """User Functions"""
 
-'''Adds new suer to database'''
-def setUser(user):
+'''Adds new user to database'''
+def setUser(user, session):
     session.add(user)
     session.commit()
 
-'''Gets a user from teh databse given an id'''
-def getUserFromId(id):
+
+'''Gets a user from the database given an id'''
+def getUserFromId(id, session):
     id_user = session.query(User).filter(User.id == id).first()
-    if (id_user == None):
-        print("There is no book with this id")
+    if id_user is None:
+        print("There is no user with this id")
     else:
         return id_user
 
+
 '''Gets a user from their email'''
-def getUserFromEmail(email):
+def getUserFromEmail(email, session):
     email_user = session.query(User).filter(User.email == email).first()
-    if (email_user == None):
-        print("There is no book with this id")
+    if email_user is None:
+        print("There is no user with this email")
     else:
         return email_user
 

@@ -24,16 +24,16 @@ def get_db():
 
 db_dependency = Annotated[Session, Depends(get_db)]
 
-new_book = Book(title="Test Book", author="Matt")
-#set_book(new_book)
-
-#Query all books
-#all_books = session.query(Book).all()
-
-#get_book_from_title("Test")
-print(get_book_from_title("Test Book"))
-
-print()
+# new_book = Book(title="Test Book", author="Matt")
+# #set_book(new_book)
+#
+# #Query all books
+# #all_books = session.query(Book).all()
+#
+# #get_book_from_title("Test")
+# print(get_book_from_title("Test Book"))
+#
+# print()
 
 # Print the title, author, and rating of each book
 #for book in all_books:
@@ -44,6 +44,8 @@ async def create_user(user: UserBase, db: db_dependency):
     db_user = master.models.User(**user.dict())
     db.add(db_user)
     db.commit()
+
+
 
 
 # @app.get("/")

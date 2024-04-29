@@ -54,8 +54,9 @@ class Club(ClubBase):
         from_attributes = True
 
 class UserBase(BaseModel):
-    name: str = Field(..., max_length=20)
-    password: str = Field(..., max_length=20)
+    name: str = Field(..., max_length=50)
+    password: str = Field(..., max_length=50)
+    email: str = Field(..., max_length=50)
     isMonthlyHost: bool
 
 class UserCreate(UserBase):
