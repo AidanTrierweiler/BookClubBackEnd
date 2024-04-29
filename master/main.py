@@ -24,16 +24,16 @@ def get_db():
 
 db_dependency = Annotated[Session, Depends(get_db)]
 
-new_book = Book(title="Test Book", author="Matt")
+#new_book = Book(title="Test Book", author="Matt")
 #set_book(new_book)
 
 #Query all books
 #all_books = session.query(Book).all()
 
 #get_book_from_title("Test")
-print(get_book_from_title("Test Book"))
+#print(get_book_from_title("Test Book"))
 
-print()
+#print()
 
 # Print the title, author, and rating of each book
 #for book in all_books:
