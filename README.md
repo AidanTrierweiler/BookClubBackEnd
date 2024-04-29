@@ -1,9 +1,7 @@
 README
 # Application Name
 
-Eccentric Page Turners Society
-Book Bums
-The Page Turners and Wine Burners
+Page Turners
 
 ## Description
 
