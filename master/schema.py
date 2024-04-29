@@ -16,15 +16,20 @@ class Review(ReviewBase):
     book_id: int
 
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 class BookBase(BaseModel):
     title: str = Field(..., max_length=100)
     author: str = Field(..., max_length=100)
     rate: int = Field(..., ge=1, le=5)
-    release: str
+    release_year: int
+    owner_id: PositiveInt
 
-class BookCreate(BookBase):
+class BookCreate(BaseModel):
+    title: str = Field(..., max_length=100)
+    author: str = Field(..., max_length=100)
+    rate: int = Field(..., ge=1, le=5)
+    release_year: int
     owner_id: PositiveInt
 
 class Book(BookBase):
@@ -33,7 +38,7 @@ class Book(BookBase):
     reviews: List[Review] = []
 
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 class ClubBase(BaseModel):
     name: str = Field(..., max_length=100)
@@ -51,7 +56,7 @@ class Club(ClubBase):
     members: List[int] = []
 
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 class UserBase(BaseModel):
     name: str = Field(..., max_length=50)
@@ -70,4 +75,4 @@ class User(UserBase):
     reviews: List[Review] = []
 
     class Config:
-        from_attributes = True
+        orm_mode = True
