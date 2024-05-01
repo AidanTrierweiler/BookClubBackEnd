@@ -30,6 +30,8 @@ Find the app in the Apple app store.
 - Backend
   - Clone the code and go through each test file and run them to see that they pass
 - Frontend
+  - Download Xcode version 15.3
+  - Download Swift
   - Clone the code and press the run buttton, it will bring up an ios simulation of the app 
 
 
