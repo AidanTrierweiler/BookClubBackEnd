@@ -16,6 +16,7 @@ Sprint 1
 (Springboot, Fast API, Flask API), take a tutorial and learn said framework as well as Swift UI, and make a rough outline of a UI/UX design. 
 
 Sprint 2
+- Implement the front end and back end of the project seperately so that they are both in working form with test data that mimicks what the real data will look like. This will prepare us to merge the two together.
 
 ## Screenshots
 
