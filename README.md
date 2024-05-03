@@ -38,7 +38,8 @@ https://drive.google.com/file/d/1C5k4z7RCpLXd8tUdBIHXy1yu7Yet-ak2/view?usp=shari
 ## Folder with other planning docs
 https://drive.google.com/drive/folders/1PA-aoc4Y_1N4cahdWSPNsAUmCgrZKGf1?usp=sharing
 
-
+## Frontend github repo
+https://github.com/kaidenhj/BookClubFrontEnd
 
 ## Contributers
 
