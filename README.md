@@ -32,7 +32,14 @@ Find the app in the Apple app store.
 - Frontend
   - Download Xcode version 15.3
   - Download Swift
-  - Clone the code and press the run buttton, it will bring up an ios simulation of the app 
+  - Clone the code and press the run buttton, it will bring up an ios simulation of the app
+ 
+## Final Submission
+https://drive.google.com/file/d/1C5k4z7RCpLXd8tUdBIHXy1yu7Yet-ak2/view?usp=sharing
+
+## Folder with other planning docs
+https://drive.google.com/drive/folders/1PA-aoc4Y_1N4cahdWSPNsAUmCgrZKGf1?usp=sharing
+
 
 
 ## Contributers
