@@ -21,15 +21,15 @@ class User(Base):
     ownedClubs = relationship("Club", primaryjoin="User.id == Club.director_id", back_populates="director")
     reviews = relationship("Review", back_populates="user")
 
-    # @validates('email')
-    # def validate_email(self, key, email):
-    #     # Regular expression pattern for validating email addresses
-    #     email_pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
-    #
-    #     if not email_pattern.match(email):
-    #         raise ValueError("Invalid email address format")
-    #
-    #     return email
+    @validates('email')
+    def validate_email(self, key, email):
+        # Regular expression pattern for validating email addresses
+        email_pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
+
+        if not email_pattern.match(email):
+            raise ValueError("Invalid email address format")
+
+        return email
 
 
 class Book(Base):
@@ -39,7 +39,7 @@ class Book(Base):
     title = Column(String(100))
     author = Column(String(100))
     rate = Column(Integer)
-    release = Column(Date)
+    release_year = Column(Date)
 
     # Define relationships
     owner_id = Column(Integer, ForeignKey('users.id'))

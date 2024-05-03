@@ -1,7 +1,7 @@
 import unittest
-from sqlalchemy import text  # Import the text function
+from sqlalchemy import text
 from master.crud import *
-from master.models import Book, Club
+from master.models import Club
 from master.database import SessionLocal, engine, Base
 
 class TestClubCRUD(unittest.TestCase):
@@ -12,31 +12,30 @@ class TestClubCRUD(unittest.TestCase):
     def tearDown(self):
         # Clean up after each test
         session = SessionLocal()
-        session.execute(text("DELETE FROM clubs"))  # Use text function to declare SQL expression
-        session.commit()  # Commit the transaction
+        session.execute(text("DELETE FROM clubs"))
+        session.commit()
         session.close()
 
     def test_add_club(self):
-        # Test adding a book to the database
-        new_club = Club(name = "Test Club")
-        session = SessionLocal()  # Create a session object
-        set_club(new_club, session)  # Pass the session object to the set_book function
+        # Test adding a club to the database
+        new_club = Club(name="Test Club")
+        session = SessionLocal()
+        set_club(new_club, session)
 
-        # Retrieve the book from the database and verify its attributes
+        # Retrieve the club from the database and verify its attributes
         retrieved_club = session.query(Club).filter(Club.name == "Test Club").first()
         self.assertIsNotNone(retrieved_club)
         self.assertEqual(retrieved_club.name, "Test Club")
 
     def test_get_club_by_name(self):
-        # Test retrieving a book by title
-        # Add a book to the database
-        new_club = Club(title="Test Club")
-        session = SessionLocal()  # Create a session object
-        set_book(new_club, session)  # Pass the session object to the set_book function
+        # Test retrieving a club by name
+        # Add a club to the database
+        new_club = Club(name="Test Club")
+        session = SessionLocal()
+        set_club(new_club, session)
 
-        # Retrieve the book by title and verify its attributes
-        retrieved_club = get_club_from_name("Test Club",
-                                             session)  # Pass the session object to the get_book_from_title function
+        # Retrieve the club by name and verify its attributes
+        retrieved_club = get_club_from_name("Test Club", session)
         self.assertIsNotNone(retrieved_club)
         self.assertEqual(retrieved_club.name, "Test Club")
 
